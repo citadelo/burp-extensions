@@ -47,7 +47,7 @@ class BurpExtender(IBurpExtender, IHttpListener, ITab):
         self._mainTabP.addTab("Settings", settingsP)
 
         self._keyFileLocationTF = JTextField('Put here the key file location, and reload', 50)
-        self._keyTF = JTextField('ZmZjOGVjY2NjMDdmYjg5NGVjZDI4OWUxZDVmN2E3OTY4OWY0MTMyNDVkNjRlMTg4Y2QzMjJkNjdmZmUwYjRlZQ==', 50)
+        self._keyTF = JTextField('YzMwNjg3MzQ2NzNkNjVlNWIzNmQ5YWRkMTFkY2MzYTRjNzU5YThhOTE0NzE2NDNkY2VlNjFkODQ5OTMyYzFkNQ==', 50)
 
         # create buttons with event handler
         reloadButtonFile = JButton("Load key from file", actionPerformed=self.reloadFileButtonEvent)
